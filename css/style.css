@@ -1,0 +1,43 @@
+/* basic resets */
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* base CSS */
+:root {
+    /* taken from https://css-tricks.com/snippets/css/system-font-stack/ */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 	Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16pt;
+    line-height: 1.2em;
+    color: #fff;
+    background-color: #333;
+}
+
+.hero__logo {
+    width: 300px;
+    height: 300px;
+}
+
+.hero {
+    max-width: 450px;
+    padding: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
